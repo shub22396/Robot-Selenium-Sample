@@ -20,7 +20,7 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    pip install
+    python.exe -m pip install
     pip install -r requirements.txt
     cd conf
     robot make run_all_in_parallel
