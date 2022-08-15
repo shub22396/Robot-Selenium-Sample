@@ -23,5 +23,5 @@ steps:
     pip install
     pip install -r requirements.txt
     cd conf
-    protractor single.conf.js
+    robot make run_all_in_parallel
   displayName: 'pip install and build'
