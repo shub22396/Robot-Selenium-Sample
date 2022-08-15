@@ -11,7 +11,8 @@ Library  LambdaTestStatus.py
     ...  visual: ${visual},
     ...  network: ${network},
     ...  console: ${console},
-    ...  name: RobotFramework Lambda Test
+    ...  name: RobotFramework Lambda Test,
+    ...  build: Robotsuite
 
 ${BROWSER}          ${ROBOT_BROWSER}
 ${CAPABILITIES}     ${EMPTY.join(${_tmp})}
