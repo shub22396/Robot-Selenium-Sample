@@ -11,8 +11,8 @@ Library  LambdaTestStatus.py
     ...  visual: ${visual},
     ...  network: ${network},
     ...  console: ${console},
-    ...  name: Example of connecting to Lambdatest via Robot Framework,
-    ...  build: Robotsuite
+    ...  name: ${name},
+    ...  build: ${build}
 
 ${BROWSER}          ${ROBOT_BROWSER}
 ${CAPABILITIES}     ${EMPTY.join(${_tmp})}
