@@ -22,5 +22,5 @@ steps:
 - script: |
     python.exe -m pip install
     pip install -r requirements.txt
-    make.exe run_all_in_parallel
+    make run_all_in_parallel
   displayName: 'pip install and build'
