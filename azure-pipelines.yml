@@ -24,4 +24,6 @@ steps:
     python.exe -m pip install
     pip install -r requirements.txt
     make run_all_in_parallel
-  
+
+- task: Lambdatest.lambda-azure-pipeline-extention.showResults-task.LambdatestResults@1
+  displayName: 'Lambdatest Results'
