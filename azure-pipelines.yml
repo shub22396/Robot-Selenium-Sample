@@ -12,6 +12,7 @@ pool:
 variables:
   LT_USERNAME: 'anishmehta'
   LT_ACCESS_KEY: '2fcF9J3BAFO7UoVjT3NAl9LbO5p1VgSpKXGq8XO2t0WUa4189E'
+  LT_BUILD_NAME: 'Suite_homepage'
 
 
 steps:
