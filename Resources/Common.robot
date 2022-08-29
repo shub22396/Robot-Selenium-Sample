@@ -12,7 +12,7 @@ Library  LambdaTestStatus.py
     ...  network: ${network},
     ...  console: ${console},
     ...  name: ${name},
-    ...  build: %{LT_BUILD_NAME}
+    ...  build: ${build}
 
 ${BROWSER}          ${ROBOT_BROWSER}
 ${CAPABILITIES}     ${EMPTY.join(${_tmp})}
