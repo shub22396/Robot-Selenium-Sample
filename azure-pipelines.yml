@@ -10,8 +10,8 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  LT_USERNAME: 'anishmehta'
-  LT_ACCESS_KEY: '2fcF9J3BAFO7UoVjT3NAl9LbO5p1VgSpKXGq8XO2t0WUa4189E'
+  LT_USERNAME: 'shubhamr'
+  LT_ACCESS_KEY: 'CCCCTfelp95y0WKq0MSKORBzWD7xpFGOTv5KlMTZ18qnAcGjId'
   LT_BUILD_NAME: 'Suite_homepage'
 
 
